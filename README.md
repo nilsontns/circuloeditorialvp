@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Travis build: [![Build Status](https://travis-ci.org/understrap/understrap.svg?branch=master)](https://travis-ci.org/understrap/understrap)
 
 #### See: [Official Demo](https://understrap.com/understrap) | Read: [Official Docs Page](https://understrap.github.io/)
@@ -150,3 +151,6 @@ and of course
 
 
 [![Analytics](https://ga-beacon.appspot.com/UA-139292-31/chromeskel_a/readme)](https://github.com/igrigorik/ga-beacon)
+=======
+# circuloeditorialvp
+>>>>>>> f71261fdaa2167fcbe6f2c407764361916dd679f
