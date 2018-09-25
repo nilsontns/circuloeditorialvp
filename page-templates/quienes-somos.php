@@ -16,12 +16,12 @@ get_header();
 $container   = get_theme_mod( 'understrap_container_type' );
 ?>
 <div class="card bg-dark text-white">
-  <img class="card-img" src="<?php echo get_template_directory_uri(); ?>/img/maquina.jpg" alt="Card image">
+  <img class="card-img" style="max-height: 410px;" src="<?php echo get_template_directory_uri(); ?>/img/cropped-bannernuevo.jpg" alt="Card image">
   <div  class="card-img-overlay" 
         style="margin-top: 105px; margin-left: 30px;" >
 
     <h1 class="card-title" 
-        style="color: #fffcf5; letter-spacing: -3px;" >
+        style="color: #fffcf500; letter-spacing: -3px;" >
         CÍRCULO EDITORIAL VISIÓN PROGRESISTA
     </h1>
     
