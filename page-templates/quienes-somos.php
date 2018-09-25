@@ -20,21 +20,18 @@ $container   = get_theme_mod( 'understrap_container_type' );
   <div  class="card-img-overlay" 
         style="margin-top: 105px; margin-left: 30px;" >
 
-    <h1 class="card-title" 
-        style="color: #fffcf500; letter-spacing: -3px;" >
-        CÍRCULO EDITORIAL VISIÓN PROGRESISTA
-    </h1>
-    
-    <p class="card-text" 
-        style="    border: solid 2px #d02e00;
-    font-size: 22px;
-    color: #f2fefe;
-    letter-spacing: 6px;
-    padding-left: 13px;
-    margin-right: 394px;
-    background: #f44c27cc;" > 
-        SOMOS UNA EDITORIAL AL SERVICIO DE LA DEMOCRACIA
-    </p>
+        <p class="card-text" 
+            style="    border: solid 2px #d02e00;
+        font-size: 22px;
+        color: #f2fefe;
+        letter-spacing: 6px;
+        padding-left: 13px;
+        margin-right: 394px;
+        background: #f44c27cc;
+        margin-top: 90px;
+        " > 
+            SOMOS UNA EDITORIAL AL SERVICIO DE LA DEMOCRACIA
+        </p>
 
   </div>
 </div>
