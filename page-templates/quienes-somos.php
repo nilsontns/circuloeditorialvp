@@ -59,7 +59,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
                                 Nosotros somos el resultado del esfuerzo por mantener y fortalecer la libertad de expresión en Venezuela, abrimos un espacio para la opinión de expertos en temas políticos, económicos y sociales, que son el reflejo de un país en crisis.
                                 <br>
                                 <br>
-                                El Círculo Editorial Visión Progresista tiene como objeto el diseño, impresión, distribución y creación de libros, revistas, periódicos, catálogos, boletines y toda clase de material audiovisual en formato digital o impreso, que contribuyan con el fortalecimiento de la democracia, aportando ideas para el progreso, respetando la pluralidad y diversidad de las ideas expresadas por nuestros autores y escritores.
+                                El Círculo Editorial Visión Progresista tiene como objeto el diseño, impresión, distribución y creación de libros, revistas, periódicos, catálogos, boletines y toda clase de material audiovisual en formato digital o impreso, que contribuyan al fortalecimiento de la democracia, aportando ideas para el progreso, respetando la pluralidad y diversidad de las ideas expresadas por nuestros autores y escritores.
                             
                             </p>
                         </div>

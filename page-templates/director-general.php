@@ -54,10 +54,10 @@ $container   = get_theme_mod( 'understrap_container_type' );
                             <br>
                             <br>
                             <p class="lead  text-justify ">
-                                Carlos Humberto Tablante Hidalgo (Maracay, Venezuela; 29 de octubre de 1954) es un político venezolano. 
-                                Fue uno de los fundadores y más conocidos dirigentes del Movimiento al Socialismo (MAS), entrando a esa organización política cuando todavía era un adolescente.
-                                Fue diputado y senador en el extinto Congreso de la República de Venezuela, primer Gobernador Electo y Reelecto del Estado de Aragua, Ministro de Estado y   Presidente de la Comisión Nacional Antidrogas. 
-                                En 1999 formó parte de la Asamblea Nacional Constituyente, por lo que es uno de los firmantes de la Constitución de Venezuela Vigente.1​ En la actualidad, forma parte del movimiento político Voluntad Popular.
+                                Carlos Humberto Tablante Hidalgo (Maracay, Venezuela; 29 de octubre de 1954) es un político venezolano. <br><br>
+                                Fue uno de los fundadores y más conocidos dirigentes del Movimiento al Socialismo (MAS), entrando a esa organización política cuando todavía era un adolescente. <br><br>
+                                Fue diputado y senador en el extinto Congreso de la República de Venezuela, primer Gobernador Electo y Reelecto del Estado de Aragua, Ministro de Estado y   Presidente de la Comisión Nacional Antidrogas. <br><br>
+                                En 1999 formó parte de la Asamblea Nacional Constituyente, por lo que es uno de los firmantes de la Constitución de Venezuela Vigente.​ En la actualidad, forma parte del movimiento político Voluntad Popular.
                             </p>
                         </div>
                     </div>
