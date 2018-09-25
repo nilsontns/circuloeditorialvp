@@ -16,9 +16,9 @@
 
 		<div class="col-sm-6" >
             <div class="jumbotron jumbotron-fluid">
-                <div class="container">
+                <div class="container archive-description">
                     <?php the_title( '<h1 class="display-4 entry-title">', '</h1>' ); ?>
-                    <p class="lead"><?php the_content(); ?></p>
+                    <?php the_content(); ?>
                 </div>
             </div>
 		
@@ -30,3 +30,15 @@
 <br>
 
 </article><!-- #post-## -->
+
+
+<script>
+	(function($) {
+	
+	// $ Works! You can test it with next line if you like
+	// console.log($);
+	
+	$( ".archive-description p" ).addClass( " lead text-justify" );
+	
+	})( jQuery );
+</script>
