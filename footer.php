@@ -24,7 +24,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<footer class="site-footer" id="colophon">
 
 					<div class="site-info"  >
-							<p>Theme: circuloeditorialVP | circulo editorial vicion progrecista Company</p>
+							<p>Theme: circuloeditorialVP | circulo editorial visión progrecista Company</p>
 							
 					</div><!-- .site-info -->
 

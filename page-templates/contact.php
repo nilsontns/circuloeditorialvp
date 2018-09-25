@@ -47,14 +47,20 @@ $container   = get_theme_mod( 'understrap_container_type' );
             <div class="col-sm-6">
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h4 class="display-4  text-center" style="color:#f44c27;" >CÍRCULO EDITORIAL VISIÓN PROGRESISTA</h4>
-                        <p class="lead">Telefono de oficinas: <br><br> (0212 ) 435-70-51 <br> (0414) 456-00-87 </p>
-                        <p class="lead" > Correo electronico: <br>circuloeditprialvp@gmail.com</p>
+                        <h4 class="display-4  text-center" style="color:#f44c27;" >CÍRCULO EDITORIAL VISIÓN PROGRESISTA</h4> <br><br>
+                        <p class="lead"> <b>Telefonos de oficinas</b>: <br><br> (0212 ) 435-70-51 <br> (0414) 456-00-87 </p>
+                        <p class="lead" > <b>Correo electronico</b>: <br>circuloeditorialvp@gmail.com</p>
+                        <p class="lead" > <b>Desarrollador web</b>: <br>Nilson Toro<br> (0412) 603-0132<br>nilsontns@gmail.com </p>
                     </div>
                 </div>
             </div>
 
+
+            
+
             <div class="col-sm-6">
+                <br>
+                <br>
                 <form name="contenidoColaboradores" id="contenidoColaboradores" method="post">
                 <?php
                     if (isset( $_POST['btn-submit'] )) {
