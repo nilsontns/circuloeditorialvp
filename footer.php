@@ -13,7 +13,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<div class="wrapper" id="wrapper-footer" style="background:#f44c27;  height: 70px;">
+<div class="wrapper" id="wrapper-footer" style="background:#f44c27;">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 
@@ -23,9 +23,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<footer class="site-footer" id="colophon">
 
-					<div class="site-info"  >
-							<p>Theme: circuloeditorialVP | circulo editorial visión progrecista Company</p>
-							
+					<div class="site-info text-center" style="color:white"  >
+							<p>Copyright © 2018 · Circulo Editorial Visión Progrecista (CEVP) </p>
+							<p> Desarrollado por <b>Nilson Toro</b> &middot;  Desarrollador Web Full Stack &middot; nilsontns@gmail.com &middot; Caracas , Venezuela   </p>
+
 					</div><!-- .site-info -->
 
 				</footer><!-- #colophon -->
