@@ -15,8 +15,8 @@ get_header();
 
 $container   = get_theme_mod( 'understrap_container_type' );
 ?>
-<div class="card bg-dark text-white">
-  <img class="card-img" style="max-height: 410px;" src="<?php echo get_template_directory_uri(); ?>/img/cropped-bannernuevo.jpg" alt="Card image">
+<div class="text-white">
+  <img class="img-fluid" style="max-height: 410px; width: 100%;" src="<?php echo get_template_directory_uri(); ?>/img/cropped-bannernuevo.jpg" alt="Card image">
   <div  class="card-img-overlay" 
         style="margin-top: 105px; margin-left: 30px;" >
 
