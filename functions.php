@@ -269,3 +269,49 @@ register_taxonomy( 'escritor-recomendado', 'recomendado', array(
 	'rewrite' => array( 'slug' => 'escritor-recomendado' ),
 ));
 } // Fin de la función create_book_taxonomies().
+
+
+
+
+
+
+
+
+
+
+
+
+
+// La función no será utilizada antes del 'init'.
+add_action( 'init', 'my_custom_init_3' );
+/* Here's how to create your customized labels */
+function my_custom_init_3() {
+	$labels = array(
+	'name' => _x( 'Galerias', 'post type general name' ),
+        'singular_name' => _x( 'galeria', 'post type singular name' ),
+        'add_new' => _x( 'Añadir nuevo', 'galeria' ),
+        'add_new_item' => __( 'Galeria' ),
+        'edit_item' => __( 'Editar Galeria' ),
+        'new_item' => __( 'Nuevo Galeria' ),
+        'view_item' => __( 'Ver Galeria' ),
+        'search_items' => __( 'Buscar Galeria' ),
+        'not_found' =>  __( 'No se han encontrado Galeria' ),
+        'not_found_in_trash' => __( 'No se han encontrado Galeria en la papelera' ),
+        'parent_item_colon' => ''
+    );
+ 
+    // Creamos un array para $args
+    $args = array( 'labels' => $labels,
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'galeria' ),
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt' )
+    );
+ 
+    register_post_type( 'galeria', $args ); /* Registramos y a funcionar */
+}
