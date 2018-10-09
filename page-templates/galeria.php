@@ -23,7 +23,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
     <h1 class="card-title text-uppercase" 
         style="color: #fffcf5; letter-spacing: -3px;" >
-        Galerias
+        GALERÍA
     </h1>
 
     <p class="card-text" 
@@ -85,7 +85,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 					</div>
 				<?php else : ?>
 
-					<h2 class=" text-uppercase" >    Por ahora no hay galeria publicada </h2>
+					<h2 class=" text-uppercase" >    Por ahora no hay GALERÍA publicada </h2>
 
 				<?php endif; ?>
 
