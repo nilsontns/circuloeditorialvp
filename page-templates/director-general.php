@@ -39,7 +39,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 
 
         <div class="container">
-            <div class="row">
+            <div class="row  shadow-lg p-3 mb-5 bg-white rounded ">
                 <div class="col align-self-center">
                     
                     <div class="jumbotron jumbotron-fluid bg-white rounded ">
@@ -57,7 +57,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
                     </div>
                     
 
-                    <div class="accordion shadow-lg p-3 mb-5 bg-white rounded" id="accordionExample">
+                    <div class="accordion" id="accordionExample">
 
                         <div class="card ">
                             <div class="card-header bg-white" id="headingOne">
@@ -68,7 +68,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
                                 </h5>
                             </div>
 
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body font-italic">
                                     <ul>
                                         <li>Fue fundador y máximo líder del MAS, en el estado Aragua.</li>
