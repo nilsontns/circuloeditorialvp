@@ -21,20 +21,14 @@ $container   = get_theme_mod( 'understrap_container_type' );
         style="margin-top: 190px; margin-left: 30px;" >
 
     <h1 class="card-title text-uppercase" 
-        style="color: #fffcf5; letter-spacing: -3px;" >
+        style="    
+        margin-top: 57px;
+        padding-left: 13px;
+        margin-right: 394px;
+        color: #fffcf5;
+        letter-spacing: 6px;" >
         Contáctanos
     </h1>
-
-    <p class="card-text" 
-        style="    border: solid 2px #d02e00;
-    font-size: 22px;
-    color: #f2fefe;
-    letter-spacing: 6px;
-    padding-left: 13px;
-    margin-right: 394px;
-    background: #f44c27cc;" > 
-        SOMOS UNA EDITORIAL AL SERVICIO DE LA DEMOCRACIA
-    </p>
 
   </div>
 </div>
@@ -50,7 +44,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
                         <h4 class="display-4  text-center" style="color:#f44c27;" >CÍRCULO EDITORIAL VISIÓN PROGRESISTA</h4> <br><br>
                         <p class="lead"> <b>Telefonos de oficinas</b>: <br><br> +58 (212) 435.70.51 <br> +58 (414) 456.00.87 </p>
                         <p class="lead" > <b>Correo electronico</b>: <br>circuloeditorialvp@gmail.com</p>
-                        <p class="lead" > <b>Desarrollador web</b>: <br>Nilson Toro<br> +58 (412) 603.01.32<br>nilsontns@gmail.com </p>
                     </div>
                 </div>
             </div>

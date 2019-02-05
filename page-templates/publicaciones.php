@@ -16,28 +16,95 @@ get_header();
 $container   = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div id="carouselExampleControls" style="height: 400px; max-height: 400px;" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100  img-carrousel" src="http://localhost/wordpress/wp-content/uploads/2018/09/cropped-bannernuevo.jpg" alt="First slide">
+		
+	<div class="card bg-dark text-white">
+			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/bayardo-ley-mutilada (1).jpg" alt="Card image">
+			<div  class="card-img-overlay" 
+					style="margin-top: 105px; margin-left: 30px;" >
+
+			</div>
+		</div>
     </div>
     <div class="carousel-item">
 		
 
 		<div class="card bg-dark text-white">
-			<img class="card-img" src="http://localhost/wordpress/wp-content/uploads/2018/09/maquina.jpg" alt="Card image">
+			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/impacto de la corrupcion en los  derechos humanos.jpg" alt="Card image">
 			<div  class="card-img-overlay" 
 					style="margin-top: 105px; margin-left: 30px;" >
 
-				<h1 class="card-title" 
-					style="color: #cebb98; letter-spacing: -3px;" >
-					CÍRCULO EDITORIAL VISIÓN PROGRESISTA
-				</h1>
+				
 
-				<p  class="card-text" 
-					style="color: #cebb98; letter-spacing: 6px;" > 
-					SOMOS UNA EDITORIAL AL SERVICIO DE LA DEMOCRACIA
-				</p>
+			</div>
+		</div>
+
+
+
+
+    </div>
+    <div class="carousel-item">
+		
+
+		<div class="card bg-dark text-white">
+			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/Libro_LL_041.jpg" alt="Card image">
+			<div  class="card-img-overlay" 
+					style="margin-top: 105px; margin-left: 30px;" >
+
+				
+
+			</div>
+		</div>
+
+
+
+
+    </div>
+    <div class="carousel-item">
+		
+
+		<div class="card bg-dark text-white">
+			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/Libro-Leopoldo4 (1).jpg" alt="Card image">
+			<div  class="card-img-overlay" 
+					style="margin-top: 105px; margin-left: 30px;" >
+
+				
+
+			</div>
+		</div>
+
+
+
+
+    </div>
+    <div class="carousel-item">
+		
+
+		<div class="card bg-dark text-white">
+			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/vecchio, sanchez y ct.jpg" alt="Card image">
+			<div  class="card-img-overlay" 
+					style="margin-top: 105px; margin-left: 30px;" >
+
+				
+
+			</div>
+		</div>
+
+
+
+
+    </div>
+    <div class="carousel-item">
+		
+
+		<div class="card bg-dark text-white">
+			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/vecchio y camilo egaña.jpg" alt="Card image">
+			<div  class="card-img-overlay" 
+					style="margin-top: 105px; margin-left: 30px;" >
+
+				
 
 			</div>
 		</div>
@@ -56,9 +123,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
     <span class="sr-only">Next</span>
   </a>
 </div>
-<hr style="margin-top: 55px;
-    border: 1px solid;
-	color: #00000059;" >
 
 <div class="wrapper" id="index-wrapper">
 
@@ -113,7 +177,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
 			<?php understrap_pagination(); ?>
 
 		<!-- Do the right sidebar check -->
-		<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
 		
 
 	</div><!-- .row -->

@@ -20,19 +20,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
   <div  class="card-img-overlay" 
         style="margin-top: 105px; margin-left: 30px;" >
 
-        <p class="card-text" 
-            style="    border: solid 2px #d02e00;
-        font-size: 22px;
-        color: #f2fefe;
-        letter-spacing: 6px;
-        padding-left: 13px;
-        margin-right: 394px;
-        background: #f44c27cc;
-        margin-top: 90px;
-        " > 
-            SOMOS UNA EDITORIAL AL SERVICIO DE LA DEMOCRACIA
-        </p>
-
   </div>
 </div>
 <div class="wrapper" id="index-wrapper">
@@ -45,7 +32,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
                 <div class="col align-self-center">
                     <div class="jumbotron jumbotron-fluid shadow-lg p-3 mb-5 bg-white rounded">
                         <div class="container">
-                            <h1 class="display-4 text-uppercase text-center" style="color: #f44c27; letter-spacing: -3px;" > ¿Quiénes Somos? </h1>
+                            <h1 class="display-4 text-uppercase text-center" style="color: #f18e00; letter-spacing: -3px;" > ¿Quiénes Somos? </h1>
                             <br>
                             <br>
                             <p class="lead text-justify ">
@@ -65,7 +52,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
             </div>
 
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-block text-uppercase shadow p-3 mb-5 rounded" style=" border: solid 2px #d02e00; font-size: 22px; color: #f2fefe; letter-spacing: 6px; padding-left: 13px; margin-right: 394px; background: #f44c27eb;"  data-toggle="modal" data-target="#exampleModalCenter">
+            <button type="button" class="btn btn-block text-uppercase shadow p-3 mb-5 rounded" style=" border: solid 2px #f18e00; font-size: 22px; color: #f2fefe; letter-spacing: 6px; padding-left: 13px; margin-right: 394px; background: #f18e00;"  data-toggle="modal" data-target="#exampleModalCenter">
                 Adquiere nuestras publicaciones 
             </button>
             
@@ -83,7 +70,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
                         </div>
 
                         <div class="modal-body">
-                            <p style="font-style: oblique;letter-spacing: -1px;font-size: 20px;color: #f8f9fa;background: #f44c27d4" >
+                            <p style="font-style: oblique;letter-spacing: -1px;font-size: 20px;color: #f8f9fa;background: #f18e00" >
                                 <br>
                                 <br>
                                 -    Editorial Sergio Dahbar (0212)-730 9873

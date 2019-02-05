@@ -21,23 +21,14 @@ $container   = get_theme_mod( 'understrap_container_type' );
         style="margin-top: 190px; margin-left: 30px;" >
 
     <h1 class="card-title" 
-        style="color: #fffcf5; letter-spacing: -3px;" >
+        style="    
+        margin-top: 57px;
+        padding-left: 13px;
+        margin-right: 394px;
+        color: #fffcf5;
+        letter-spacing: 4px;" >
         AUTORES / ESCRITORES
     </h1>
-
-    
-    <p class="card-text" 
-					style=" border: solid 2px #d02e00;
-							font-size: 22px;
-							color: #f2fefe;
-							letter-spacing: 6px;
-							padding-left: 13px;
-							margin-right: 394px;
-							background: #f44c27cc;" > 
-               
-        SOMOS UNA EDITORIAL AL SERVICIO DE LA DEMOCRACIA
-    </p>
-
   </div>
 </div>
 

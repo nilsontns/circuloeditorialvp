@@ -16,25 +16,19 @@ get_header();
 $container   = get_theme_mod( 'understrap_container_type' );
 ?>
 <div class="bg-dark text-white"  >
-  <img class=" img-fluid" style="width: 100%; height: 420px; max-height: 420px;" src="<?php echo get_template_directory_uri(); ?>/img/Carlos-Tablante.jpg" alt="Card image">
+  <img class=" img-fluid" style="width: 100%; height: 420px; max-height: 420px;" src="<?php echo get_template_directory_uri(); ?>/img/carlos-tablante-nueva.png" alt="Card image" >
   <div  class="card-img-overlay" 
         style="margin-top: 190px; margin-left: 30px;" >
 
     <h1 class="card-title" 
-        style="color: #fffcf5; letter-spacing: -3px;" >
+        style="    
+        margin-top: 57px;
+        padding-left: 13px;
+        margin-right: 394px;
+        color: #fffcf5;
+        letter-spacing: 4px;" >
         DIRECTOR GENERAL
     </h1>
-
-    <p  class="card-text" 
-        style="    border: solid 2px #d02e00;
-    font-size: 22px;
-    color: #f2fefe;
-    letter-spacing: 6px;
-    padding-left: 13px;
-    margin-right: 394px;
-    background: #f44c27cc;" > 
-        SOMOS UNA EDITORIAL AL SERVICIO DE LA DEMOCRACIA
-    </p>
 
   </div>
 </div>
@@ -50,7 +44,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
                     
                     <div class="jumbotron jumbotron-fluid bg-white rounded ">
                         <div class="container ">
-                            <h1 class="display-4 text-uppercase" style="color: #f44c27; letter-spacing: -3px;" >Carlos Tablante</h1>
+                            <h1 class="display-4 text-uppercase" style="color: #f18e00; letter-spacing: -3px;" >Carlos Tablante</h1>
                             <br>
                             <br>
                             <p class="lead  text-justify ">
