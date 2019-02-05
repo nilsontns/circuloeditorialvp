@@ -15,6 +15,15 @@ get_header();
 
 $container   = get_theme_mod( 'understrap_container_type' );
 ?>
+
+<style>
+    .color {
+            font-size: 21px;
+            background: #f18e00;
+            color: #fffcf5;
+            letter-spacing: 5px; }
+            
+</style>
 <div class="bg-dark text-white">
   <img class="img-fluid" style="width: 100%; height: 420px; max-height: 420px;"  src="<?php echo get_template_directory_uri(); ?>/img/maquina.jpg" alt="Card image">
   <div  class="card-img-overlay" 
@@ -41,7 +50,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
             <div class="col-sm-6">
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h4 class="display-4  text-center" style="color:#f44c27;" >CÍRCULO EDITORIAL VISIÓN PROGRESISTA</h4> <br><br>
+                        <h4 class="display-4  text-center" style="color:#f18e00;" >CÍRCULO EDITORIAL VISIÓN PROGRESISTA</h4> <br><br>
                         <p class="lead"> <b>Telefonos de oficinas</b>: <br><br> +58 (212) 435.70.51 <br> +58 (414) 456.00.87 </p>
                         <p class="lead" > <b>Correo electronico</b>: <br>circuloeditorialvp@gmail.com</p>
                     </div>
@@ -179,7 +188,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
                         }?>
                     </div>
         
-                    <button type="submit" id="btn-submit" name="btn-submit" class="btn btn-block">Enviar Consulta!</button>
+                    <button type="submit" id="btn-submit" name="btn-submit"  class="color btn btn-block">Enviar Consulta!</button>
                     </form>
 
 
