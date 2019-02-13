@@ -16,17 +16,17 @@ get_header();
 $container   = get_theme_mod( 'understrap_container_type' );
 ?>
 <div class="bg-dark text-white"  >
-  <img class=" img-fluid" style="width: 100%; height: 420px; max-height: 420px;" src="<?php echo get_template_directory_uri(); ?>/img/carlos-tablante-nueva.png" alt="Card image" >
+  <img class=" img-fluid" style="width: 100%; height: 420px; max-height: 420px;" src="<?php echo get_template_directory_uri(); ?>/img/banner1.jpg" alt="Card image" >
   <div  class="card-img-overlay" 
         style="margin-top: 190px; margin-left: 30px;" >
 
     <h1 class="card-title" 
-        style="    
-        margin-top: 57px;
-        padding-left: 13px;
-        margin-right: 394px;
-        color: #fffcf5;
-        letter-spacing: 4px;" >
+        style=" text-align: right;
+                margin-top: 31px;
+                margin-right: 20px;
+                color: #f18e00a8;
+                letter-spacing: -1px;
+                font-size: 70px;" >
         DIRECTOR GENERAL
     </h1>
 
