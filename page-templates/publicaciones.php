@@ -17,101 +17,36 @@ $container   = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="opacity: 0.89;" >
     <div class="carousel-item active">
-		
-	<div class="card bg-dark text-white">
-			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/bayardo-ley-mutilada (1).jpg" alt="Card image">
-			<div  class="card-img-overlay" 
-					style="margin-top: 105px; margin-left: 30px;" >
-
+			<div class="card bg-dark text-white" style="border-radius: 0 ; border: 0;" >
+					<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/bayardo-ley-mutilada (1).jpg" alt="Card image">
 			</div>
-		</div>
     </div>
     <div class="carousel-item">
-		
-
-		<div class="card bg-dark text-white">
-			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/impacto de la corrupcion en los  derechos humanos.jpg" alt="Card image">
-			<div  class="card-img-overlay" 
-					style="margin-top: 105px; margin-left: 30px;" >
-
-				
-
+			<div class="card bg-dark text-white" style="border-radius: 0 ; border: 0;" >
+				<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/impacto de la corrupcion en los  derechos humanos.jpg" alt="Card image">
 			</div>
-		</div>
-
-
-
-
     </div>
     <div class="carousel-item">
-		
-
-		<div class="card bg-dark text-white">
-			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/Libro_LL_041.jpg" alt="Card image">
-			<div  class="card-img-overlay" 
-					style="margin-top: 105px; margin-left: 30px;" >
-
-				
-
+			<div class="card bg-dark text-white" style="border-radius: 0 ; border: 0;" >
+				<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/Libro_LL_041.jpg" alt="Card image">
 			</div>
-		</div>
-
-
-
-
     </div>
     <div class="carousel-item">
-		
-
-		<div class="card bg-dark text-white">
-			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/Libro-Leopoldo4 (1).jpg" alt="Card image">
-			<div  class="card-img-overlay" 
-					style="margin-top: 105px; margin-left: 30px;" >
-
-				
-
+			<div class="card bg-dark text-white" style="border-radius: 0 ; border: 0;" >
+				<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/Libro-Leopoldo4 (1).jpg" alt="Card image">
 			</div>
-		</div>
-
-
-
-
     </div>
     <div class="carousel-item">
-		
-
-		<div class="card bg-dark text-white">
-			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/vecchio, sanchez y ct.jpg" alt="Card image">
-			<div  class="card-img-overlay" 
-					style="margin-top: 105px; margin-left: 30px;" >
-
-				
-
+			<div class="card bg-dark text-white" style="border-radius: 0 ; border: 0;" >
+				<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/vecchio, sanchez y ct.jpg" alt="Card image">
 			</div>
-		</div>
-
-
-
-
     </div>
     <div class="carousel-item">
-		
-
-		<div class="card bg-dark text-white">
-			<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/vecchio y camilo egaña.jpg" alt="Card image">
-			<div  class="card-img-overlay" 
-					style="margin-top: 105px; margin-left: 30px;" >
-
-				
-
+			<div class="card bg-dark text-white" style="border-radius: 0 ; border: 0;" >
+				<img class="card-img" style="height: 570px; max-height: 570px;" src="<?php echo get_template_directory_uri(); ?>/img/vecchio y camilo egaña.jpg" alt="Card image">
 			</div>
-		</div>
-
-
-
-
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -129,7 +64,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 		<div class="row">
-
+	
 			<!-- Do the left sidebar check and opens the primary div -->
 			<?php // get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
